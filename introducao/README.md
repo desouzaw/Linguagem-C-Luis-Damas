@@ -230,4 +230,29 @@
       g) quando ocupam apenas uma linha não precisam terminar com `*/`. - <span style="color:red; font-weight: bold">falsa</span> (Para o estilo `/* */`, o fechamento é obrigatório mesmo em uma única linha).
       <br />
 
+   15. **Escreva um programa que coloque na tela a seguinte a frase:**
+      `Bem-vindos ao /Mundo\ da programação em "C"`
+      <br />
+   
+   16. **Escreva um programa que coloque na tela uma árvore com o seguinte formato:**
+   ```
+      *
+     ***
+    *****
+     /|\
+   ```
+   <br />
+
+   17. **Escreva um programa que coloque na tela a seguinte saída:**
+   ```
+   Total    =    100%
+   IVA      =    17%
+   IRS      =    15%
+   -------------------
+   Líq.     =    68%
+   ```
+   <br />
+
+   18. **Experimente a função `puts("Hello World");` (put string) para escrever a string "Hello World" e indique qual a diferença entre esta e a função `printf`. (*Nota: Essa função também faz parte do `stdio.h`)***
+  - A função `puts`, diferentemente da `printf`, não permite a formatação do texto, apenas a sua exibição direta; nesse sentido, a função apresenta-se como uma alternativa mais simples. Outro ponto importante é que a `puts` posiciona o cursor em uma nova linha automaticamente após exibir a string, enquanto a printf só fará o mesmo se o caractere de nova linha (`\n`) for explicitamente adicionado.
    
