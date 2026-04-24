@@ -1,5 +1,4 @@
-# Resolução 
----
+# Resolução dos exercícios propostos no capítulo de introdução
 
 1. **Qual função deve estar presente em todos os programas em C?**
    - A função `main`.
