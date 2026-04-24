@@ -11,6 +11,7 @@
 
 O projeto está dividido por capítulos, conforme a estrutura da 10ª edição:
 
-* **Capítulo 1:** Introdução
+* **Capítulo 1:** O meu primeiro programa
+* **Capítulo 2:** Tipos de dados básicos
 
 
