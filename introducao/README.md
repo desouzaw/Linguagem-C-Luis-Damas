@@ -1,4 +1,4 @@
-# Resolução dos exercícios propostos no capítulo de introdução
+# Resolução 
 ---
 
 1. **Qual função deve estar presente em todos os programas em C?**
@@ -206,28 +206,28 @@
    ---
 
    12. **Os comentários devem ser escritos**
-      [ ] a) Antes de qualquer instrução do programa.
-      [ ] b) Depois de todas as instruções.
-      [ ] c) Antes do main
-      [**X**] <span style="color:green; font-weight: bold"> d) Sempre que o programador ache necessário ou conveniente.</span>
+      <br /> [ ] a) Antes de qualquer instrução do programa.
+      <br /> [ ] b) Depois de todas as instruções.
+      <br /> [ ] c) Antes do main
+     <br /> [**X**] <span style="color:green; font-weight: bold"> d) Sempre que o programador ache necessário ou conveniente.</span>
       <br />
 
-   13. **Um programa em C, que tenha comentários no seu código, é, em relaçãoa outro que não os tenha,**
-      [ ] a) Mais rápido para executar.
-      [ ] b) Mais lento para executar.
-      [ ] c) Executado praticamente à mesma velocidade, pois os comentários exigem uma utilização ínfima da CPU.
-      [**X**] <span style="color:green; font-weight: bold"> d) Executado à mesma velocidade, pois os comentários são simplesmente ignorados pelo compilador, não havendo qualquer reflexo deles no tempo de execução.</span>
+   13. **Um programa em C, que tenha comentários no seu código, é, em relação a outro que não os tenha,**
+      <br /> [ ] a) Mais rápido para executar.
+      <br /> [ ] b) Mais lento para executar.
+      <br /> [ ] c) Executado praticamente à mesma velocidade, pois os comentários exigem uma utilização ínfima da CPU.
+      <br /> [**X**] <span style="color:green; font-weight: bold"> d) Executado à mesma velocidade, pois os comentários são simplesmente ignorados pelo compilador, não havendo qualquer reflexo deles no tempo de execução.</span>
       <br />
 
-   14. **Indique se são verdadeiras ou falsas as seguintes afirmações:**
+   14. **Indique se são verdadeiras ou falsas as seguintes afirmações:** <br />
          **Os Comentários**
-      a) só podem executar uma única linha. - <span style="color:red; font-weight: bold">falsa</span>
-      b) podem ocupar várias linhas. - <span style="color:green; font-weight: bold">verdadeira</span>
-      c) podem conter outros comentários dentro. - <span style="color:red; font-weight: bold">falsa</span>
-      d) começam por `/*` e terminam com `*/`. - <span style="color:green; font-weight: bold">verdadeira</span>
-      e) não têm qualquer influência na velocidade de execução de um programa. - <span style="color:green; font-weight: bold">verdadeira</span>
-      f) têm que começar no ínício de uma linha. - <span style="color:red; font-weight: bold">falsa</span>
-      g) quando ocupam apenas uma linha não precisam terminar com `*/`. - <span style="color:red; font-weight: bold">falsa</span> (Para o estilo `/* */`, o fechamento é obrigatório mesmo em uma única linha).
+      <br /> a) só podem executar uma única linha. - <span style="color:red">**falsa**</span>
+      <br /> b) podem ocupar várias linhas. - <span style="color:green">**verdadeira**</span>
+      <br /> c) podem conter outros comentários dentro. - <span style="color:red">**falsa**</span>
+      <br /> d) começam por `/*` e terminam com `*/`. - <span style="color:green">**verdadeira**</span>
+      <br /> e) não têm qualquer influência na velocidade de execução de um programa. - <span style="color:green">**verdadeira**</span>
+      <br /> f) têm que começar no ínício de uma linha. - <span style="color:red">**falsa**</span>
+      <br /> g) quando ocupam apenas uma linha não precisam terminar com `*/`. - <span style="color:red">**falsa**</span> (Para o estilo `/* */`, o fechamento é obrigatório mesmo em uma única linha).
       <br />
 
    15. **Escreva um programa que coloque na tela a seguinte a frase:**
