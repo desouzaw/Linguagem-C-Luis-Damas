@@ -1,5 +1,5 @@
 /**
- * Escreva um programa que solicite a um usuário uma determinada data e a mostre em seguida no formato dd/mm/aaaa
+ * Escreva um programa que solicite ao usuário uma determinada data e a mostre em seguida no formato dd/mm/aaaa
  */
 
 #include <stdio.h>
