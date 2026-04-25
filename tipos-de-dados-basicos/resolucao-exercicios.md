@@ -59,6 +59,120 @@
    g) Uma variável do tipo char pode armazenar vários caracteres, desde que sejam caracteres especiais. - **falsa**
    h) O operador módulo (`%`) não pode ser utilizado em reais - **verdadeira**
    <br /> 
+   <br />
+
+7. **Identifique os erros de compilação que seriam detectados nos seguintes programas:**
+   7.1
+   ```
+   /*
+    * Copyright: Asneira Suprema Software!!!
+    */
+
+   #include <stdio.h>
+   main()
+   {
+      int x, y, x;
+   }
+   ```
+   - Em C, uma variável só pode ser declarada uma única vez dentro de um mesmo escopo. Uma redeclaração, como ocorre com o identificador 'x' no programa, ocasiona um erro de compilação.
+   ___
+
+   7.2
+   ```
+   /*
+    * Copyright: Asneira Suprema Software!!!
+    */
+
+   #include <stdio.h>
+   main()
+   {
+      int x, y;
+      float int = 5.23;
+      printf("%f", int);
+   }
+   ```
+   - Na declaração de uma variável, após especificar o tipo de dado, deve-se definir o seu identificador. Este deve seguir certas regras de nomeação; uma delas estabelece que não se podem utilizar palavras reservadas da linguagem (como 'int', no exemplo dado). O programa não será compilado devido a essa violação sintática.
+   ---
+
+   7.3
+   ```
+   /*
+    * Copyright: Asneira Suprema Software!!!
+    */
+
+   #include <stdio.h>
+   main()
+   {
+      int x=y=z=0;
+      printf("%d %d %d \n", x, y, z);
+   }
+   ```
+   - C não permite atribuições encadeadas diretamente na declaração de variáveis. Isso ocorre devido à forma como a operação de atribuição é processada: o compilador avalia primeiro o operando da direita. No código de exemplo, o erro acontece porque o compilador tenta atribuir valores a 'y' e 'z' antes que eles tenham sido formalmente declarados, impedindo a compilação.
+   <br />
+
+8. **Embora os programas que se seguem não tenham erros de compilação, identifique as causas de seu possível mau funcionamento.**
+   8.1
+   ```
+   /*
+    * Copyright: Asneira Suprema Software!!!
+    */
+
+   #include <stdio.h>
+   main()
+   {
+            int n;
+      scanf("Introduza um N° %d", &n);
+      printf("O n° = %d\n", n);
+   }
+   ```
+   - Se um texto for passado dentro da string de formato da função scanf, ele não será exibido na tela. Em vez disso, esse texto torna-se um padrão obrigatório que a função esperará encontrar na entrada de dados. Caso a entrada fornecida pelo usuário não seja exatamente igual ao padrão definido, a leitura não será concluída corretamente.
+   No exemplo de código fornecido, um literal de string foi passado na chamada da função. Se o usuário não digitar exatamente esse literal antes do número, o scanf interromperá a leitura, falhando na atribuição do valor à variável n. Como a variável não foi inicializada e a atribuição falhou, ao tentar imprimir seu valor, o resultado exibido na tela será um "lixo de memória".
+   <br />
+
+   8.2
+   ```
+   /*
+    * Copyright: Asneira Suprema Software!!!
+    */
+
+   #include <stdio.h>
+   main()
+   {
+            int n;
+      printf("Introduza um N°");
+      scanf("%d\n", &n);
+      printf("O n° = %d\n", n);
+   }
+   ```
+   - No código acima, o caractere de nova linha (`\n`) passado na string de formato do `scanf` (logo após o especificador de inteiro `%d`) não terá o mesmo efeito que teria na função `printf`.
+   Em vez de gerar um efeito visual de quebra de linha durante a execução, ele instrui o `scanf` a ignorar qualquer caractere que represente "espaço em branco" (como espaços, tabulações e quebras de linha). Assim, quando o usuário digitar o valor para a variável e pressionar `Enter`, essa tecla não finalizará a leitura, pois será ignorada pela função. Para interromper esse ciclo, será necessário que o usuário insira qualquer outro caractere (não branco) e pressione `Enter` novamente, permitindo que o programa retorne à execução normal.
+   <br />
+
+   8.3
+   ```
+   /*
+    * Copyright: Asneira Suprema Software!!!
+    */
+
+   #include <stdio.h>
+   main()
+   {
+            int n;
+      printf("Introduza um N°");
+      scanf("%f", &n);
+      printf("O n° = %f\n", n);
+   }
+   ```
+   - No código de exemplo, existe uma incompatibilidade de tipos tanto na função `scanf` quanto na função `printf`. Está sendo feita a leitura de um dado do tipo `float`, mas a variável associada a essa atribuição está declarada como `int`. Como existe uma diferença na disposição dos bits (ou em como esses bits são armazenados), o valor real que será informado não será atribuído corretamente.
+   <br />
+
+9. **Escreva um programa que solicite ao usuário uma determinada data e a mostre em seguida no formato dd/mm/aaaa**
+   - [resolução (exe09.c)](./exe09.c)
+   <br />
+
+10. **Escreva um programa que solicite ao usuário uma determinada data no formato aaaa-mm-dd e a mostre em seguida no formato dd/mm/aaaa**
+   - [resolução (exe10.c)](./exe10.c)
+   <br />
 
 
 
