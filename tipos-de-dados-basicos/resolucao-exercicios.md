@@ -17,7 +17,7 @@
    [ ] d) Um valor negativo
    <br />
 
-3. **Indique, na sequinte lista, quais os identificadores corretos e incorretos de variáveis:** <br />
+3. **Indique, na sequinte lista, quais os identificadores corretos de variáveis:** <br />
    **[X] <span style="color:green"> a) Valor**</span> <br />
    [ ] b) &xvar <br />
    [ ] c) dez% <br />
