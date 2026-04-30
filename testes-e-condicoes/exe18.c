@@ -1,5 +1,5 @@
 /**
- * Escreva um programa que verifique se um ano é bissextoou não
+ * Escreva um programa que verifique se um ano é bissexto ou não
  */
 
 #include <stdio.h>
