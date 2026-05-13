@@ -1,0 +1,3 @@
+Que problema pode provocar a função anterior?
+
+   Pode ocorrer um estouro de tipo se, ao somar 1 ao caractere da string, o resultado for um valor superior ao limite suportado pelo tipo da variável

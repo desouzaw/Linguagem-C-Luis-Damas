@@ -17,5 +17,6 @@ O projeto está dividido por capítulos, conforme a estrutura da 10ª edição:
 * **Capítulo 4:** Laços
 * **Capítulo 5:** Funções e procedimentos
 * **Capítulo 6:** Vetores
+* **Capítulo 7:** Strings
 
 
