@@ -19,5 +19,4 @@ O projeto está dividido por capítulos, conforme a estrutura da 10ª edição:
 * **Capítulo 6:** Vetores
 * **Capítulo 7:** Strings
 * **Capítulo 8:** Ponteiros
-
-
+* **Capítulo 9:** Passagem de parâmetros
