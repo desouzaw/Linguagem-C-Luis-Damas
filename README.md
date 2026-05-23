@@ -20,3 +20,4 @@ O projeto está dividido por capítulos, conforme a estrutura da 10ª edição:
 * **Capítulo 7:** Strings
 * **Capítulo 8:** Ponteiros
 * **Capítulo 9:** Passagem de parâmetros
+* **Capítulo 10:** Arquivos
