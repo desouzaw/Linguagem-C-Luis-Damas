@@ -21,3 +21,4 @@ O projeto está dividido por capítulos, conforme a estrutura da 10ª edição:
 * **Capítulo 8:** Ponteiros
 * **Capítulo 9:** Passagem de parâmetros
 * **Capítulo 10:** Arquivos
+* **Capítulo 11:** Estruturas
