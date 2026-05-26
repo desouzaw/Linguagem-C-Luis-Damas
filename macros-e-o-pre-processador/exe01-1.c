@@ -11,7 +11,7 @@
 
 #define TAX_ICMS1 5
 #define TAX_ICMS2 17
-#define VAL_ICMS(salary) (((salary) < 10000) ? (TAX_ICMS1): (TAX_ICMS2))
+#define VAL_ICMS(salary) (((salary) < 10000) ? (salary * TAX_ICMS1 / 100): (salary * TAX_ICMS2 / 100))
 
 float net_salary(float, int);
 
@@ -19,11 +19,11 @@ int main(void) {
    float salary;
    printf("Informe o valor do salário: ");
    scanf("%f", &salary);
-   printf("Taxa ICMS = %d\nSalário descontado = %.2f\n", VAL_ICMS(salary), net_salary(salary, VAL_ICMS(salary)));
+   printf("Taxa ICMS = %.2f\nSalário descontado = %.2f\n", VAL_ICMS(salary), net_salary(salary, VAL_ICMS(salary)));
 
    return 0;
 }
 
 float net_salary(float salary, int tax) {
-   return salary - (salary * tax / 100);
+   return salary - tax;
 }
