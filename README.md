@@ -23,3 +23,4 @@ O projeto está dividido por capítulos, conforme a estrutura da 10ª edição:
 * **Capítulo 10:** Arquivos
 * **Capítulo 11:** Estruturas
 * **Capítulo 12:** Memória dinâmica
+* **Capítulo 13:** Macros e o pré-processador
